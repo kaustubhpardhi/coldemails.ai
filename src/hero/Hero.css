@@ -1,0 +1,22 @@
+.hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  height: 100vh; /* This makes the hero take up the full height of the viewport */
+}
+
+.hero-title {
+  font-size: 1.5rem;
+  font-weight: 600;
+  text-align: center;
+  font-family: Montserrat;
+}
+.hero-title {
+  margin-bottom: -8px; /* adjust this value as needed */
+}
+.hero-p {
+  text-align: center;
+  font-family: Montserrat;
+  font-weight: 300;
+}
