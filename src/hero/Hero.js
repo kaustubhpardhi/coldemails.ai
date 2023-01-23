@@ -10,7 +10,7 @@ function Hero() {
         Say goodbye to generic, ineffective cold emails with our powerful tool.
         <br />
         Increase response rates with ease. Try it now and see the difference for
-        yourself
+        yourself.
       </p>
     </div>
   );
