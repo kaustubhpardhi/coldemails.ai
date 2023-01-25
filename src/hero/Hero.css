@@ -3,7 +3,7 @@
   flex-direction: column;
   align-items: center;
 
-  height: 100vh; /* This makes the hero take up the full height of the viewport */
+  /* This makes the hero take up the full height of the viewport */
 }
 
 .hero-title {

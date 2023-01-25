@@ -10,10 +10,7 @@ function Navbar() {
         <p className="nav-item">Docs</p>
         <p className="nav-item">Resources</p>
         <p className="nav-item">Spread coolness 🚀</p>
-        <button className="login-button nav-item">
-          Login
-          <CiUser className="user-icon" size="30px" color="black" />
-        </button>
+        <button className="login-button nav-item">Login 👋 </button>
       </div>
     </div>
   );
