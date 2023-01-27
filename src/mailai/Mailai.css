@@ -1,3 +1,7 @@
+.mail-app {
+  display: flex;
+  flex-direction: column;
+}
 .mail-card {
   display: flex;
   flex-direction: row;

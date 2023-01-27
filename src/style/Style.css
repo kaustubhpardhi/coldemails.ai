@@ -1,0 +1,16 @@
+.style-card {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10rem;
+}
+.style-card-list {
+  display: flex;
+  flex-direction: row;
+}
+.style-card-title-text {
+  font-weight: 400;
+  font-family: Montserrat;
+  font-size: large;
+}
+.style-card-list {
+}
