@@ -1,14 +1,19 @@
 .mail-card {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-evenly;
   margin-top: 30px;
 }
 
 .mail-card-left {
-  background-color: blue;
   display: flex;
   direction: column;
+  border: 1px solid;
+  border-color: #c0c0c0;
+  border-radius: 10px;
+  padding: 20px;
+  height: 400px;
+  width: 500px;
 }
 .mail-details-title {
   font-family: Montserrat;
@@ -33,11 +38,11 @@
 }
 .mail-input {
   border-radius: 5px;
-  background: rgb(249, 250, 250);
+
   border: 1px solid rgb(181, 189, 196);
   font-size: 16px;
   height: 25px;
-  width: 15rem;
+  width: 20rem;
   line-height: 24px;
   padding: 7px 8px;
   color: rgb(8, 9, 10);
@@ -49,5 +54,21 @@
   box-shadow: 1px 1px 0 #3b49df;
 }
 .mail-card-right {
-  background-color: aqua;
+  background-color: #f8f8f8;
+  box-shadow: rgba(27, 31, 35, 0.04) 0px 1px 0px 0px;
+  border-radius: 10px;
+  height: 350px;
+  width: 350px;
+}
+.mail-card-box {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+.mail-card-box-title {
+  font-family: Montserrat;
+  color: #c0c0c0;
 }

@@ -8,10 +8,10 @@ function Mailai() {
           <p className="mail-details-title">Furnish your mail</p>
           <div className="mail-details-purpose">
             <input type="radio" value="job" name="purpose" />
-            <p className="mail-purpose-title">Job Hunting</p>
+            <p className="mail-purpose-title">Job Hunting 💻</p>
             <span className="span"></span>
             <input type="radio" value="showcase" name="purpose" />{" "}
-            <p className="mail-purpose-title">Showcase Your Work</p>
+            <p className="mail-purpose-title">Showcase Your Work 📜</p>
           </div>
           <div className="mail-recipient">
             <p className="mail-recipient-title mail-left-title">
@@ -34,7 +34,9 @@ function Mailai() {
         </div>
       </div>
       <div className="mail-card-right">
-        <p>right</p>
+        <div className="mail-card-box">
+          <p className="mail-card-box-title">Your Prompts</p>
+        </div>
       </div>
     </div>
   );
