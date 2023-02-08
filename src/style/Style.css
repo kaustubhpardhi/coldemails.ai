@@ -6,11 +6,56 @@
 .style-card-list {
   display: flex;
   flex-direction: row;
+  gap: 30px;
+  padding: 10px;
+  margin-left: -10px;
 }
 .style-card-title-text {
-  font-weight: 400;
+  font-weight: bold;
   font-family: Montserrat;
-  font-size: large;
+  font-size: larger;
+  font-style: italic;
 }
-.style-card-list {
+.style-card-list-item-1 {
+  display: flex;
+  flex-direction: row;
+  border-radius: 5px;
+  border: 1px solid rgb(181, 189, 196);
+  align-items: center;
+  padding: 5px;
+  height: 50px;
+  width: 100px;
+}
+.casual-img {
+  height: 2rem;
+}
+.formal-img {
+  height: 2rem;
+}
+.style-card-list-item-2 {
+  display: flex;
+  flex-direction: row;
+  border-radius: 5px;
+  border: 1px solid rgb(181, 189, 196);
+  align-items: center;
+  padding: 5px;
+  height: 50px;
+  width: 100px;
+  gap: 8px;
+}
+.list-item-2 {
+  text-align: center;
+  margin-right: 10px;
+}
+div.style-card-list-item-1:focus {
+  border-width: 3px;
+  border-style: solid;
+  border-radius: 2rem;
+  border-image: linear-gradient(to right, darkblue, darkorchid) 1;
+}
+div.style-card-list-item-2:focus {
+  border-width: 3px;
+  border-style: solid;
+  border-radius: 2rem;
+  border-image: linear-gradient(to right, darkblue, darkorchid) 1;
 }

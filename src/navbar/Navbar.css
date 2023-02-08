@@ -18,8 +18,12 @@
 }
 
 .logo p {
-  margin: 0;
-  color: #4b56d2;
+  /* margin: 0;
+  color: #4b56d2; */
+  font-size: 20px;
+  background: -webkit-linear-gradient(darkblue, darkorchid);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .nav-links {
@@ -42,22 +46,23 @@
   /* Green */
   background-color: white;
   color: black;
-  border: 2.5px solid;
-  border-color: #4b56d2;
-  border-radius: 4px;
+  border-radius: 10px;
+
   font-size: 16px;
   font-weight: bold;
   cursor: pointer;
   padding: 10px 20px;
   height: 40px;
-  margin-top: 12px;
+  margin-top: 11px;
   display: flex;
   align-items: center;
   justify-content: center;
+  border-width: 3px;
+  border-style: solid;
+  border-image: linear-gradient(to right, darkblue, darkorchid) 1;
 }
 .login-button:hover {
-  background-color: #4b56d2;
-  border: 2px solid;
+  border-width: 2px;
   border-color: black;
-  color: white;
+  color: darkorchid;
 }
